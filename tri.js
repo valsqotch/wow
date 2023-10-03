@@ -41,13 +41,13 @@ btn.addEventListener("click",function(){
         if(Math.sqrt(si)%1!=0){
             result.innerHTML=`結果
             <br/>
-            cos=${i+ " / " + j +  " = " +  (i/j).toFixed(5)} <br/>
+            cos=${i+ "/" + j +  " = " +  (i/j).toFixed(5)} <br/>
             sin=${ "√(" + si + ")/" + j + " = " + Math.sqrt((si/sj)).toFixed(5)}`
         }
         else{
             result.innerHTML=`結果
             <br/>
-            cos=${i+ " / " + j +  " = " +  (i/j).toFixed(5)} <br/>
+            cos=${i+ "/" + j +  " = " +  (i/j).toFixed(5)} <br/>
             sin=${ Math.sqrt(si) + "/" + j + " = " + Math.sqrt((si/sj)).toFixed(5)}`
         }
     }
